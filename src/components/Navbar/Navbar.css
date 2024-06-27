@@ -1,0 +1,40 @@
+.abar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.aicons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.aall {
+    margin-top: 20px;
+    position: absolute;
+    right: 5px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.anav-button{
+    margin-right: 10px;
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

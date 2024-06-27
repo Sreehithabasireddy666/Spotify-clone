@@ -1,0 +1,133 @@
+/* Reset margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes .music-bar to the bottom */
+    margin-left: 24%; /* Account for the sidebar width */
+    margin-top: 15px; /* Account for the navbar height */
+    background-color: #282828; /* Dark background color */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    box-sizing: border-box;
+    margin-right: 7px;
+    color: white;
+    min-width: 75%;
+    max-width: 85%;
+    border-radius: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 50px; /* Space between buttons */
+}
+
+.cu {
+    background-color: white; /* Transparent background */
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 150px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.section {
+    margin-bottom: 0px;
+    padding: 5px;
+}
+/* Home.css */
+
+#hinanna {
+    background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hi-nanna-et00364503-1701678655.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border if not needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+#hindi{
+    background-image: url('https://th.bing.com/th/id/OIP.5cFmzR47wiXOpZfJE02MXwHaEg?rs=1&pid=ImgDetMain');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border if not needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+
+}
+#telugu{
+    background-image: url('https://th.bing.com/th/id/OIP.E5PL4eBgPIg7OMkU7_qyzwAAAA?rs=1&pid=ImgDetMain');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border if not needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+
+}
+.bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.all {
+    margin-top: 20px;
+    position: absolute;
+    margin-bottom: 20px;
+    right: 80px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.nav-button{
+    margin-right: 10px;
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px; 
+    background-color: purple; 
+    color: white;
+    font-size: 1.5em; 
+    border-radius: 50%; 
+    cursor: pointer;
+    text-align: center;
+    user-select: none; 
+    margin: 10px; 
+    margin-left: 90%;
+    opacity: 0.5;
+}

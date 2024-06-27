@@ -1,0 +1,33 @@
+.container-hinanna {
+    border-radius: 10px;
+    background-color: #282828; /* Light orange background color */
+    margin: 10px;
+     margin-top: 15px;
+    margin-left: 24%; /* Offset by the width of the sidebar */
+    width: calc(100vw-margin-left); /* Fill 75% of the remaining width */
+    height: 100vh; /* Fill remaining height after navbar */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+}
+.container-hinanna-sec1{
+    padding-top: 30px;
+    background-color: rgba(222, 184, 135, 0.94);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hinannaimg { 
+    padding: 20px;
+    height: 300px;
+    max-width: 400px; /* Limit the maximum width of the image */
+    display: block; /* Ensure the image is block-level */
+    margin: 0 auto; /* Center align the image */
+    margin-left: 5%;
+}
+.sec1-hinanna{
+    background-color: burlywood;
+}
+
+.container-hinanna h1 {
+    color: white; /* Orange text color */
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 10px;
+}
