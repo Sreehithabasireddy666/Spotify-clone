@@ -1,0 +1,82 @@
+.song-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.493);
+    width: 95%;
+    height: 50px;
+    position: relative; /* Ensure the range bar stays within the card */
+    margin-bottom: 15px;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+}
+
+.song-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.song-details {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.song-name {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.song-author {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.845);
+}
+
+.play-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    color: #4cb91d;
+}
+
+.range-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.741); /* Change this to your desired color */
+}
+
+.range-bar::-webkit-slider-thumb {
+    font-size: 0px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: white; /* Change thumb color */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ 
+
