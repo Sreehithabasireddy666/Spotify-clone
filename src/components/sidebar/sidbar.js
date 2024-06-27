@@ -1,6 +1,6 @@
 import React, { useContext} from "react";
 import "./Sidebar.css";
-import { FaHome,FaSignInAlt} from "react-icons/fa";
+import { FaHome,FaSignInAlt,FaSearch} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Info } from "../../Helper/helper";
 
@@ -16,6 +16,9 @@ const Sidebar = () => {
                 <Link to="/" className="link-no-underline">
                     <div className="home-icon"><FaHome /><span className="hom">Home</span></div>
                 </Link>
+                <Link to="/search" className="link-no-underline">
+                    <div className="home-icon"><FaSearch /><span className="hom">Search</span></div>
+                </Link>
                 
                 <div className="home-icon"><FaSignInAlt /><span className="hom"> {allInf.status ? <span><Link to= "/logout" className="link-no-underline">Logout</Link></span>
                 : <span><Link to= "/login" className="link-no-underline">Login</Link></span>}</span></div>  
@@ -23,9 +26,8 @@ const Sidebar = () => {
             <div className="log-inf">
                 {allInf.status ? <div><span className="welcome-title">Welcome {(allInf.username)}!!</span><br />Start listening to your favourite music</div> : <h2>Login for better experience</h2>}
             </div>
-            <div>
-                <h3 className="side-heading">Create your first playlist</h3>
-                <div><button className="sidebar-button">Create playlist</button></div>
+            <div className="bottom">
+                <p>search to listen your Favourite Music</p>
             </div>
         </div>
     );

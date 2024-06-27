@@ -10,6 +10,7 @@ import Login from "./pages/Login/login";
 import { Info } from "./Helper/helper";
 import { useState } from "react";
 import Logout from "./pages/Logout/logout";
+import Searchpage from "./pages/Search/searchsongs";
 const App = ()=>{
     const [allInf,setAllInf] = useState({
         username:'',
@@ -27,6 +28,7 @@ const App = ()=>{
                     <Route path="/tollywoodhits" element={<Info.Provider value={{allInf,setAllInf}}><Telugu/></Info.Provider>} />
                     <Route path="/bollywoodhits" element={<Info.Provider value={{allInf,setAllInf}}><Hindi/></Info.Provider>} />
                     <Route path="/logout" element={<Info.Provider value={{allInf,setAllInf}}><Logout/></Info.Provider>} />
+                    <Route path="/search" element={<Info.Provider value={{allInf,setAllInf}}><Searchpage /></Info.Provider>} />
                  </Routes>
              </BrowserRouter>
         </div>

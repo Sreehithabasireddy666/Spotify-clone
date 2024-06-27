@@ -1,0 +1,21 @@
+.searchpage{
+    background-color: #282828;
+    margin-top: 10px;
+    color: white;
+    min-height: 100vh;
+    margin-left: 24%;
+    border-radius: 10px;
+}
+.searchbar{
+    width: 80%;
+    margin-left: 5%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+.search-btn{
+    background-color: #282828;
+    border: none;
+    color: white;
+    margin-left: 20px;
+}
