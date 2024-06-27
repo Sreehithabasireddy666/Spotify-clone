@@ -9,6 +9,7 @@ import Hindi from "./pages/Hindi/hindi";
 import Login from "./pages/Login/login";
 import { Info } from "./Helper/helper";
 import { useState } from "react";
+import Logout from "./pages/Logout/logout";
 const App = ()=>{
     const [allInf,setAllInf] = useState({
         username:'',
@@ -25,6 +26,7 @@ const App = ()=>{
                     <Route path="/hinanna" element = {<Info.Provider value={{allInf,setAllInf}}><Hinanna/></Info.Provider>} />
                     <Route path="/tollywoodhits" element={<Info.Provider value={{allInf,setAllInf}}><Telugu/></Info.Provider>} />
                     <Route path="/bollywoodhits" element={<Info.Provider value={{allInf,setAllInf}}><Hindi/></Info.Provider>} />
+                    <Route path="/logout" element={<Info.Provider value={{allInf,setAllInf}}><Logout/></Info.Provider>} />
                  </Routes>
              </BrowserRouter>
         </div>

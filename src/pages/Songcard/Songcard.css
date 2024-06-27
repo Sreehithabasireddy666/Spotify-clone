@@ -6,7 +6,7 @@
     margin: 10px;
     color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.493);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.259);
     width: 95%;
     height: 50px;
     position: relative; /* Ensure the range bar stays within the card */
@@ -64,7 +64,7 @@
     height: 5px;
     border-radius: 5px;
     outline: none;
-    background: rgba(255, 255, 255, 0.741); /* Change this to your desired color */
+    background: rgba(255, 255, 255, 0.756); /* Change this to your desired color */
 }
 
 .range-bar::-webkit-slider-thumb {

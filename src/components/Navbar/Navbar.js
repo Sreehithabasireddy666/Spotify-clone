@@ -10,7 +10,13 @@ const Navbar = ()=>{
         navigate('/');
     };
     const navigatetoLogin = () =>{
-        navigate('/login')
+        if(allInf.status){
+            navigate('/logout');
+        }
+        else{
+            navigate('/login')
+        }
+        
     };
     return(
         <div className="abar-container">

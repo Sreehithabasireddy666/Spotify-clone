@@ -16,10 +16,9 @@ const Sidebar = () => {
                 <Link to="/" className="link-no-underline">
                     <div className="home-icon"><FaHome /><span className="hom">Home</span></div>
                 </Link>
-                <Link to="/login" className="link-no-underline">
-                    <div className="home-icon"><FaSignInAlt /><span className="hom"> {allInf.status ? <span>Logout</span> 
-                    : <span>Login</span>}</span></div>
-                </Link>
+                
+                <div className="home-icon"><FaSignInAlt /><span className="hom"> {allInf.status ? <span><Link to= "/logout" className="link-no-underline">Logout</Link></span>
+                : <span><Link to= "/login" className="link-no-underline">Login</Link></span>}</span></div>  
             </div>
             <div className="log-inf">
                 {allInf.status ? <div><span className="welcome-title">Welcome {(allInf.username)}!!</span><br />Start listening to your favourite music</div> : <h2>Login for better experience</h2>}

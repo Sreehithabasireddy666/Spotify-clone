@@ -1,0 +1,38 @@
+.logout-background {
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/P3EtD4C.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 24%;
+    min-height: 100vh;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.logout-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15%;
+    margin-right: 20%;
+}
+
+.confirmation-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.logout-button {
+    background-color: #4cb91d; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
